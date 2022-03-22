@@ -14,7 +14,9 @@ DESCRIPTION TBD.
 | Live stream | TBD |
 | conda environment  | `TBD` |
 
-## BEFORE THE TUTORIAL
+---
+
+## ⚠️ To do before the tutorial
 
 Make sure you've done these things **before the tutorial on Thursday**:
 
@@ -25,15 +27,17 @@ Make sure you've done these things **before the tutorial on Thursday**:
    to solve many computer issues during the tutorial so make sure you do this
    ahead of time. If you need any help, ask on Slack.
 
-## 🧑🏿‍💻 • Learner profile
+---
+
+## 🧑🏿‍💻 Learner profile
 
 * TBD
 
-## 💻 • Computer setup
+## 💻 Computer setup
 
 TBD
 
-## 🧑‍🏫 • For instructors
+## 🧑‍🏫 For instructors
 
 The tutorial is designed to be taught as a 2 hour session with **live-coding**.
 To do so, create a copy of the notebook and delete all or most of the code
@@ -47,7 +51,7 @@ Ideally, have students follow along on their own computers, typing in the code
 with you. Make sure you also share a copy of the pre-filled notebook with
 students so that they can choose to not type and listen at the same time.
 
-## ⚖️  • License
+## ⚖️ License
 
 The original material for this tutorial can be found at
 [leouieda/transform2022](https://github.com/leouieda/transform2022).
