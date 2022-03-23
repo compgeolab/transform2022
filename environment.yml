@@ -1,0 +1,22 @@
+name: t22-ridge
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - xarray
+  - netcdf4
+  - jupyter
+  - jupyterlab
+  - numba
+  - pykdtree
+  - pyproj
+  - pygmt==0.6.*
+  - gmt==6.3.*
+  - verde==1.6.*
+  - pooch==1.6.*
+  - boule==0.3.*
