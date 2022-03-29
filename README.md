@@ -1,14 +1,33 @@
-# transform2022
+# A geophysical tour of mid-ocean ridges
 
 **Instructor:** [Leonardo Uieda](https://www.leouieda.com/)
 
-Tutorial for Transform2022 about modelling lithosphere formation at mid-ocean
-ridges.
+Mid-ocean ridges are the places where the oceanic crust and lithosphere are
+born.
+They are large mountain ranges in the deep ocean, stretching all around the
+globe and with heights rivalling that of the tallest mountains on land.
+Ridges are also a key part of plate tectonics, a major component of the
+biogeochemical cycle of the oceans, and the home of unique biological
+communities.
 
-DESCRIPTION TBD.
+In this tutorial, we'll study the mid-ocean ridges through the lens of
+geophysics.
+We'll use open geophysical data (gravity, bathymetry, lithospheric age) and
+open-source Python tools to try to answer questions like:
+How do ridges stay so tall?
+Are they in isostatic equilibrium?
+Why do ocean basins get deeper as they age?
+Along the way, we'll also learn how to translate into code the physical models
+of the cooling of the lithosphere so that we can compare their predictions with
+our data.
+
+This tutorial is aimed at learners with **intermediate level** coding knowledge.
+We'll assume that learners have an understanding of variables, loops,
+and functions as well as the basics of the Scipy stack (numpy and matplotlib).
 
 |         | Info |
 |--------:|:-----|
+| What | Tutorial for Transform2022 |
 | When | TBD |
 | Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `TBD` |
 | Live stream | TBD |
