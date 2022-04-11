@@ -28,10 +28,10 @@ and functions as well as the basics of the Scipy stack (numpy and matplotlib).
 |         | Info |
 |--------:|:-----|
 | What | Tutorial for Transform2022 |
-| When | TBD |
-| Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `TBD` |
-| Live stream | TBD |
-| conda environment  | `TBD` |
+| When | Wednesday 27 April 2022 08:00 UTC |
+| Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `#t22-wed-mor-geophysics` |
+| Live stream | https://www.youtube.com/watch?v=NzJmRlJCNbQ |
+| conda environment  | `t22-wed-mor-geophysics` |
 
 ---
 
