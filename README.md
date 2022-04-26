@@ -32,7 +32,7 @@ our data.
 | Conda environment  | `t22-wed-mor-geophysics` |
 | Level requirement | **Intermediate** Python coding experience: Learner has an understanding of variables, loops, and functions as well as the basics of the Scipy stack (numpy and matplotlib). |
 
-## 👩‍🎓 How to take part
+## 🧑🏿‍💻 How to take part
 
 **[Transform](https://transform.softwareunderground.org/) is an fully online event.**
 You can participate either synchronously (live) or asynchronously (any time in the future).
@@ -57,9 +57,21 @@ You can participate either synchronously (live) or asynchronously (any time in t
 1. If you have any questions, post them on the [Software Underground Slack](https://softwareunderground.org) 
    (make sure you mention which tutorial you're asking about).
 
-## 🧑🏿‍💻 Learner profile
+## 👩‍🎓 Learner profile
 
-* TBD
+This tutorial is designed with learners of the following profile. 
+
+> **This does not mean that you need to fit this profile in order
+> to take part**. It is meant only to communicate what is our starting point 
+> for building out the content of the tutorial. 
+
+* Undergraduate later in their studies or postgraduate in Earth Sciences.
+* Has takes advanced level mathematics (summations, exponentials, trigonometric functions)
+  and has had some exposure to calculus (differential equations).
+* Is able to write Python code to analyze data, make figures, etc but not
+  necessarily studied software development.
+* Knows the basics of plate tectonic theory and global geology and geophysics,
+  including the concept of isostatic equilibrium.
 
 ## 💻 Computer setup
 
