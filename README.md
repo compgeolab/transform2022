@@ -9,9 +9,9 @@ globe and with heights rivalling that of the tallest mountains on land.
 Ridges are also a key part of plate tectonics, a major component of the
 biogeochemical cycle of the oceans, and the home of unique biological
 communities.
-
-In this tutorial, we'll study the mid-ocean ridges through the lens of
-geophysics.
+   
+**In this tutorial, we'll study the mid-ocean ridges through the lens of
+geophysics.**
 We'll use open geophysical data (gravity, bathymetry, lithospheric age) and
 open-source Python tools to try to answer questions like:
 How do ridges stay so tall?
@@ -21,32 +21,41 @@ Along the way, we'll also learn how to translate into code the physical models
 of the cooling of the lithosphere so that we can compare their predictions with
 our data.
 
-This tutorial is aimed at learners with **intermediate level** coding knowledge.
-We'll assume that learners have an understanding of variables, loops,
-and functions as well as the basics of the Scipy stack (numpy and matplotlib).
+<img src="https://github.com/compgeolab/transform2022/raw/main/figures/ridge-cooling-model-setup.png" alt="Sketch of the physical model and main variables used to describe mid-ocean ridges.">
 
 |         | Info |
 |--------:|:-----|
-| What | Tutorial for Transform2022 |
-| When | Wednesday 27 April 2022 08:00 UTC |
+| What | Tutorial for [Transform2022](https://transform.softwareunderground.org/) |
+| When | Wednesday 27 April 2022 08:00-10:00 UTC |
 | Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `#t22-wed-mor-geophysics` |
 | Live stream | https://www.youtube.com/watch?v=NzJmRlJCNbQ |
-| conda environment  | `t22-wed-mor-geophysics` |
+| Conda environment  | `t22-wed-mor-geophysics` |
+| Level requirement | **Intermediate** Python coding experience: Learner has an understanding of variables, loops, and functions as well as the basics of the Scipy stack (numpy and matplotlib). |
 
----
+## 👩‍🎓 How to take part
 
-## ⚠️ To do before the tutorial
+**[Transform](https://transform.softwareunderground.org/) is an fully online event.**
+You can participate either synchronously (live) or asynchronously (any time in the future).
 
-Make sure you've done these things **before the tutorial on Thursday**:
+### Synchronous:
 
-1. Sign-up for the [Software Underground Slack](https://softwareunderground.org)
-1. Join the channel `TBD`. This is where **all communication
-   will happen**.
-1. Set up your computer (instructions below). We will not have time
-   to solve many computer issues during the tutorial so make sure you do this
-   ahead of time. If you need any help, ask on Slack.
+1. ⚠️ **Before the tutorial** ⚠️:
+   1. Setup your computer (see below).
+   1. Sign up for the [Software Underground Slack](https://softwareunderground.org).
+1. Connect to the YouTube livestream at the tutorial time and hop on to the 
+   `#t22-wed-mor-geophysics` channel on Slack as well.
+1. Follow along with the tutorial on your computer (I'll write the code live).
+   I'd recommend having your Jupyter notebook and the livestream side-by-side.
+1. If you have any questions, post them on the Slack and we'll get to them.
 
----
+### Asynchronous:
+
+1. Setup your computer (see below).
+1. Open the YouTube recording.
+1. Follow along with the tutorial on your computer (I'll write the code live).
+   I'd recommend having your Jupyter notebook and the livestream side-by-side.
+1. If you have any questions, post them on the [Software Underground Slack](https://softwareunderground.org) 
+   (make sure you mention which tutorial you're asking about).
 
 ## 🧑🏿‍💻 Learner profile
 
