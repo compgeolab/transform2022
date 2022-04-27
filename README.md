@@ -9,7 +9,7 @@ globe and with heights rivalling that of the tallest mountains on land.
 Ridges are also a key part of plate tectonics, a major component of the
 biogeochemical cycle of the oceans, and the home of unique biological
 communities.
-   
+
 **In this tutorial, we'll study the mid-ocean ridges through the lens of
 geophysics.**
 We'll use open geophysical data (gravity, bathymetry, lithospheric age) and
@@ -29,10 +29,11 @@ our data.
 | When | Wednesday 27 April 2022 08:00-10:00 UTC |
 | Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `#t22-wed-mor-geophysics` |
 | Live stream | https://www.youtube.com/watch?v=NzJmRlJCNbQ |
-| Conda environment  | `t22-wed-mor-geophysics` |
 | Level requirement | **Intermediate** Python coding experience: Learner has an understanding of variables, loops, and functions as well as the basics of the Scipy stack (numpy and matplotlib). |
+| Conda environment  | `t22-wed-mor-geophysics` |
 | Notebook | TBD |
 | Notebook (empty) | TBD |
+| Run online (no setup) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/transform2022/HEAD?labpath=mid-ocean-ridge-geophysics.ipynb) |
 
 ## 🧑🏿‍💻 How to take part
 
@@ -44,7 +45,7 @@ You can participate either synchronously (live) or asynchronously (any time in t
 1. ⚠️ **Before the tutorial** ⚠️:
    1. Setup your computer (see below).
    1. Sign up for the [Software Underground Slack](https://softwareunderground.org).
-1. Connect to the YouTube livestream at the tutorial time and hop on to the 
+1. Connect to the YouTube livestream at the tutorial time and hop on to the
    `#t22-wed-mor-geophysics` channel on Slack as well.
 1. Follow along with the tutorial on your computer (I'll write the code live).
    I'd recommend having your Jupyter notebook and the livestream side-by-side.
@@ -56,50 +57,50 @@ You can participate either synchronously (live) or asynchronously (any time in t
 1. Open the YouTube recording.
 1. Follow along with the tutorial on your computer (I'll write the code live).
    I'd recommend having your Jupyter notebook and the livestream side-by-side.
-1. If you have any questions, post them on the [Software Underground Slack](https://softwareunderground.org) 
+1. If you have any questions, post them on the [Software Underground Slack](https://softwareunderground.org)
    (make sure you mention which tutorial you're asking about).
-   
+
 ## 🚶🏿‍♀️ How to follow along
 
-I will be explaining things and typing out code live in 
-a Jupyter notebook. To follow along with the tutorial, you 
+I will be explaining things and typing out code live in
+a Jupyter notebook. To follow along with the tutorial, you
 have 2 options:
 
-1. Type out the code with me as I go along. 
-   * **Pros:** Keeps you from getting distracted, builds muscle memory, 
-     and ensures you follow my reasoning. 
+1. Type out the code with me as I go along.
+   * **Pros:** Keeps you from getting distracted, builds muscle memory,
+     and ensures you follow my reasoning.
    * **Cons:** It can be difficult to listen and type at the same time,
-     particularly if you encounter an error. 
-   * **How to do it:** Download the "empty" version of the notebook 
+     particularly if you encounter an error.
+   * **How to do it:** Download the "empty" version of the notebook
      (links above) that has most of the code removed. Open this
      and type along with me.
 1. Run the code that is already written along with me.
-   * **Pros:** You don't have to match my typing so it's one less 
+   * **Pros:** You don't have to match my typing so it's one less
      thing to worry about.
    * **Cons:** Can get distracted or not fully understand how things are
      built up.
    * **How to do it:** Download the "full" version of the notebook
      (links above) that has the full code for the tutorial. Read
      the code as I type along and run the code cells when I do.
-   
-There is no right way to do it so you'll have to try what works best for 
-you. 
+
+There is no right way to do it so you'll have to try what works best for
+you.
 
 > **My personal recommendation:**
-> Download both notebooks and start by trying to type along with me in the 
+> Download both notebooks and start by trying to type along with me in the
 > empty version.
-> If you miss anything or have trouble keeping up, either copy it from the 
+> If you miss anything or have trouble keeping up, either copy it from the
 > full notebook or switch to that one entirely.
 > With the video being on YouTube, you can always pause or slow it down
 > so I highly encourage trying to type things out for yourself.
 
 ## 👩‍🎓 Learner profile
 
-This tutorial is designed with learners of the following profile. 
+This tutorial is designed with learners of the following profile.
 
 > **This does not mean that you need to fit this profile in order
-> to take part**. It is meant only to communicate what is our starting point 
-> for building out the content of the tutorial. 
+> to take part**. It is meant only to communicate what is our starting point
+> for building out the content of the tutorial.
 
 * Undergraduate later in their studies or postgraduate in Earth Sciences.
 * Has takes advanced level mathematics (summations, exponentials, trigonometric functions)
@@ -112,7 +113,7 @@ This tutorial is designed with learners of the following profile.
 ## 💻 Computer setup
 
 For this tutorial, you'll need to have a specific Python environment setup.
-The particular software that is required is listed in the 
+The particular software that is required is listed in the
 [`environment.yml` file](https://github.com/compgeolab/transform2022/blob/main/environment.yml).
 Follow the instructions below to get set up.
 
@@ -123,7 +124,7 @@ You'll need either one of:
 * [Miniforge](https://github.com/conda-forge/miniforge#miniforge3) (preferred for Linux/Mac users)
 * [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (preferred for Windows users)
 * [Anaconda](https://www.anaconda.com/products/distribution)
-   
+
 If you have any of these installed already, you don't need to reinstall or switch.
 
 ### Step 2: Create the tutorial environment
@@ -133,10 +134,10 @@ It does so in a separate *conda environment* to avoid messing with
 your Python installations.
 
 1. Download the [`environment.yml`](https://github.com/compgeolab/transform2022/blob/main/environment.yml) file to your computer.
-1. Open a terminal (Linux/Mac) or Anaconda Prompt (Windows). 
+1. Open a terminal (Linux/Mac) or Anaconda Prompt (Windows).
 1. The following steps should be done in the terminal/prompt:
-   1. Navigate to the folder that has the downloaded `environment.yml` file 
-      (if you don't know how to do this, take a moment to read the 
+   1. Navigate to the folder that has the downloaded `environment.yml` file
+      (if you don't know how to do this, take a moment to read the
       [Software Carpentry lesson on the Unix shell](http://swcarpentry.github.io/shell-novice/)).
    1. Type out the command `conda env create --file environment.yml` and hit `Enter` to create the conda environment
       (this will download and install all of the packages used in the tutorial so it could take a while).
@@ -161,7 +162,7 @@ In your terminal or Anaconda Prompt, run the following (type it out and hit `Ent
 This should open your browser and load Jupyter Lab.
 
 **Note for Windows users:** If Internet Explorer opens and you only get a blank page,
-this is because Jupyter Lab does not work with Internet Explorer. 
+this is because Jupyter Lab does not work with Internet Explorer.
 To get around this, install Firefox, Chrome, or any other browser and make it
 your default browser. Close your terminal/prompt and repeat the steps above.
 
