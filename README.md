@@ -31,9 +31,9 @@ our data.
 | Live stream | https://www.youtube.com/watch?v=NzJmRlJCNbQ |
 | Level requirement | **Intermediate** Python coding experience: Learner has an understanding of variables, loops, and functions as well as the basics of the Scipy stack (numpy and matplotlib). |
 | Conda environment  | `t22-wed-mor-geophysics` |
-| Notebook | TBD |
-| Notebook (empty) | TBD |
-| Run online (no setup) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/transform2022/HEAD?labpath=mid-ocean-ridge-geophysics.ipynb) |
+| Notebook | [`mid-ocean-ridge-geophysics.ipynb`](https://nbviewer.org/github/compgeolab/transform2022/blob/main/mid-ocean-ridge-geophysics.ipynb) |
+| Notebook (empty version) | [`mid-ocean-ridge-geophysics-empty.ipynb`](https://nbviewer.org/github/compgeolab/transform2022/blob/main/mid-ocean-ridge-geophysics-empty.ipynb) |
+| Run online | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compgeolab/transform2022/HEAD?labpath=mid-ocean-ridge-geophysics.ipynb) |
 
 ## 🧑🏿‍💻 How to take part
 
